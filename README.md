@@ -1,2 +1,2 @@
-# H-pverkefni-1
+# Hopverkefni-1
 Hópverkefni 1
