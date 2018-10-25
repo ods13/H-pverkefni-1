@@ -1,0 +1,59 @@
+@import 'config';
+
+.haus {
+    cursor: default;
+    background-color: $brunn;
+    margin-bottom: $gutter*2;
+}
+
+.fyrirsogn {
+
+}
+
+.menu {
+
+
+
+    __links {
+
+    }
+
+    __text{
+
+    }
+}
+
+.kerra {
+
+
+
+    __image {
+        align-content: center;
+        width: $gutter;
+        height: $gutter;
+    }
+
+    __text {
+        margin: $gutter/2;
+        :hover{
+            color: $lightBlue;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.menu__text {
+
+}
+
+.link {
+    color: $black;
+    transition: color 300ms ease-in-out;
+    text-decoration: none;
+
+    :hover {
+        color: $lightBlue;
+        cursor: pointer;
+    }
+}
