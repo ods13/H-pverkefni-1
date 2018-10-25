@@ -6,7 +6,10 @@
   "scripts": {
     "browser-sync": "browser-sync start --server --files index.html styles.scss",
     "sass": "node-sass --source-map-embed styles.scss styles.css",
-    "sass-watch": "node-sass --souche-map-embed --watch *.scss --recursive styles.css"
+    "sass-watch": "node-sass --souche-map-embed --watch *.scss --recursive styles.css",
+    "dev": "npm-run-all --parallel sass browser-sync",
+    "lint-css": "stylelint styles.css --syntax css",
+    "lint-scss": "stylelint styles.scss --syntax scss"
   },
   "keywords": [],
   "author": "Kári og Óðinn",
