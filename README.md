@@ -1,7 +1,7 @@
 
 # Hópverkefni 1
 
-Við notuðum npm til þess að downloada eftirfandi linterum og settum þá upp í verkefninu. 
+Við notuðum npm til þess að downloada eftirfarandi linterum og settum þá upp í verkefninu. 
 
 browser-sync
 
@@ -16,8 +16,8 @@ stylelint-config-primer
 
 stillingarnar fyrir þá eru í "scripts" í package.json
 
-Við lentum hinsvegar í ákveðnum vandræðum með sass og fleira í npm og enduðum á því að hætta að nota tólinn í morgunn.
-css var því skrifað upp í css file-um en ekki scss og síðan þýtt yfir. Við notuðum griddið, flex ofl.
+Við lentum hinsvegar í ákveðnum vandræðum með sass og fleira í npm og enduðum á því að hætta að nota tólin í morgunn.
+css var því skrifað upp í css file-um en ekki scss. Við notuðum griddið, flex ofl.
 við náðum ekki að fara yfir skjölinn skv. stylelint.
  
  
