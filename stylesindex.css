@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html { /* stylelint-disable-line */
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family:'Times New Roman', Times, serif;
+  font-size:16px;
+}
+
+
+main {
+  margin: 0 auto;
+  max-width: 1500px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.haus {
+    cursor: default;
+    background-color: #afb281;
+    margin-bottom: 40px;
+}
+.fyrirsogn {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+.menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+    .menu__links {
+        margin-left: 25%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    .menu__text{
+        align-content: space-between;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+}
+.kerra {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    align-items: center;
+    width: 25%;
+}
+
+.menu__text {
+    font-family: 'Oswald';
+    font-size: 18px;
+}
+.link {
+    color: #000000;
+    transition: color 300ms ease-in-out;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #cee8fc;
+    cursor: pointer;
+}
+
+
+.takki {
+ background-color: #cc9694;
+ border-bottom-style: groove;
+}
+  
+.mynd {
+ max-width: 100%;
+ margin-bottom: 20px;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 2.25em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.5em;
+}
+  
+  /* grid fyrir efni */
+
+
+
+.grid__row {
+  display: flex;
+  flex-direction: column;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.grid__col {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+
+
+.grid__row--margin {
+    margin-bottom: 40px;
+}
+
+.forsida__text {
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.button__red {
+    width: 42%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1em;
+    background-color: #cc9694;
+    border-style: 0;
+    border-radius: 5px;
+    transition: ease-in-out 0.3s;
+}
+
+.button__red:hover {
+    color: #cc9694;
+    background-color: #000000;
+    transition: ease-in-out 0.3s;
+}
+
+.image {
+    max-width: 100%;
+}
+
+
+/* FÓTUR */
+
+
+footer {
+  padding-top: 20px;
+  background-color: #cc9694;
+
+  
+
+footer .content {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+    
+.grid {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+    
+.grid__row {
+  flex-wrap: wrap;
+  flex-direction: row;
+  transition: ease-in-out 0.3s;
+    
+}
+
+.grid__col {
+  width: 50%;
+  transition: ease-in-out 0.3s;
+    
+}
+    
+footer a {
+  color: #fcffd2;
+  transition: ease-in-out 0.3s;
+  text-decoration: none;
+}
+    
+footer a:hover {
+  color: #000000;
+  transition: ease-in-out 0.3s;
+}
+    
+.grid__fyrirsogn {
+  font-size: 1em;
+  color:#000000;
+  width: 30%;
+}
+    
+.grid__col--copyright {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+@media (min-width: 701px) {
+    .grid__row {
+        flex-direction: row;
+        transition: ease-in-out 0.3s;
+    }
+    .grid__col--footer {
+    width: 25%;
+    transition: ease-in-out 0.3s;
+    }
+}
+
+@media (max-width: 1000px) {
+    .grid__row--footer {
+        flex-wrap: wrap;
+        flex-direction: row;
+        transition: ease-in-out 0.3s;
+    }
+}
+
