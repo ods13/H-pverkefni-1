@@ -6,7 +6,7 @@
     <title>Vörur í körfu</title>
         
     <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../stylescart.css">
     </head>
     <body>
         <header class="haus">
@@ -18,100 +18,82 @@
                     <li class="menu__text"> <a class="link" href="../pages/staff.html">STARFSFÓLK</a></li>
                 </ul>
                 <div class="kerra">
-                    <img class="kerra__image" src="../img/cart.svg" alt="Kerra">
+                    <img class="button__image" src="../img/cart.svg" alt="Kerra">
                     <div class="kerra__text"> <a class="link" href="../pages/cart.html">Karfa (3)</a></div>
                 </div>
             </nav>
         </header>
 
         <main>
-            <div class="fyrirsogn">
-                <h2 class="textiBOLD">Vörur í körfu</h2>
-            </div>
-            <div class="cart">
+            <div class="grid">
 
-                <div class="cart__rod">
-                    <div class="cart__dalkMYND">
-                        <img class="listiMynd" src="../img/watch.jpg">
+                <div class="grid__row grid__row--margin">
+                    <div class="grid__col">
+                            <h2>Vörur í körfu</h2>
                     </div>
-                    <div class="cart__rod">
-
-                        <div class="cart__umvoru">
-                            <h2 class="textiBOLD">Ótrúlegt</h2>
-                            <p class="textiVENJULEGUR">Hvað er klukkan? Þetta úr mun svara því hvar sem er.</p>
-                            
-                            <div class="cart__nedrabox">
-                                <h3 class="textiBOLD">99.990 kr.-</h3>
-                                <p class="listiVorur">Fjöldi</p>
-                                <div class="cart__nedstaflex">
-                                    <input class="fjoldi" type="number" value="1">
-                                    <button class="takkiKarfa">
-                            
-                                <img class="kerra__image" src="../img/cart.svg" alt="Kerra">
-                                <div class="takkiKarfa__text"></div>
-                                    </button>
-
-                                    <button class="takkiKarfa">
-                                        <img class="kerra__image" src="../img/cart.svg" alt="Kerra">
-                                        <div class="takkiKarfa__text">Eyða úr körfu</div>
-                                    </button>
-                                </div>
+                </div>
+                <div class="grid__row grid__row--margin">
+                    <div class="grid__col grid__col--sm">
+                        <img class="image" src="../img/watch.jpg">
+                    </div>
+                    <div class="grid__col grid__col--large">
+                        <div class="cart__info">
+                            <div class="cart__text">
+                                <h2>Ótrúlegt</h2>
+                                <p>Hvað er klukkan? Þetta úr mun svara því hvar sem er.</p>
+                            </div>
+                            <div class="cart__text">
+                                <h3>99.990 kr.-</h3>
+                                <p>Fjöldi</p>
+                                <div class="cart__content">
+                                <button class="button__text">1</button>
+                                <button class="button__clear"> <img class="button__image" src="../img/cart.svg">Uppfæra</button>
+                                <button class="button__clear"> <img class="button__image" src="../img/cart.svg">Eyða úr körfu</button>
                             </div>
                         </div>
                     </div>
                 </div>
+                </div>
 
-                <div class="cart__rod">
-                        <div class="cart__dalkMYND">
-                                <img class="listiMynd" src="../img/headphones.jpg">
+                <div class="grid__row grid__row--margin">
+                        <div class="grid__col grid__col--sm">
+                            <img class="image" src="../img/headphones.jpg">
+                        </div>
+                        <div class="grid__col grid__col--large">
+                            <div class="cart__info">
+                            <div class="cart__text">
+                                <h2>Hágæða heyrnatól</h2>
+                                <p>Þú munt ekki heyra neitt nema hágæða tónlist með þessum hágæða heyrnatólum. Höfum við minnst á að þau eru hágæða?</p>
                             </div>
-                            <div class="cart__rod">
-        
-                            <div class="cart__umvoru">
-                                <h2 class="textiBOLD">Hágæða heyrnatól</h2>
-                                <p class="textiVENJULEGUR">Þú munt ekki heyra neitt nema hágæða tónlist með þessum hágæða heyrnatólum. Höfum við minnst á að þau eru hágæða?</p>
-                                    
-                            <div class="cart__nedrabox">
-                                    <h3 class="textiBOLD">39.990 kr.-</h3>
-                                    <p class="listiVorur">Fjöldi</p>
-                                    <div class="cart__nedstaflex">
-                                        <input class="fjoldi" type="number" value="2">
-                                        <button class="takkiKarfa">
-                                    
-                                <img class="kerra__image" src="../img/cart.svg" alt="Kerra">
-                                <div class="takkiKarfa__text"></div>
-                                    </button>
-        
-                                    <button class="takkiKarfa">
-                                        <img class="kerra__image" src="../img/cart.svg" alt="Kerra">
-                                        <div class="takkiKarfa__text">Eyða úr körfu</div>
-                                    </button>
-                                </div>
+                        <div class="cart__text">        
+                                    <h2>39.990 kr.-</h2>   
+                                    <p>Fjöldi</p>
+                                    <div class="cart__content">
+                                <button class="button__text">2</button>    
+                                <button class="button__clear"> <img class="button__image" src="../img/cart.svg" alt="Kerra">Uppfæra</button>
+                                <button class="button__clear"> <img class="button__image" src="../img/cart.svg" alt="Kerra">Eyða úr körfu</button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>
 
-            <div class="info">
-                <div class="info__rod">
-
-                    <div class="info__dalk">
-                        <h2 class="textiBOLD">Sendingarupplýsingar</h2>
-                        <div class="info__box">
-                            <div class="info__reitirtexti">
-                                <label class="nafnreitur" for="nafn">Nafn:</label>
-                                <input class="reiturinfo" type="field" name="nafn" id="nafn" required>
+            <div class="grid__row grid__row--margin">
+                <div class="grid__col grid__col--sm grid__col--left">
+                        <h2>Sendingarupplýsingar</h2>
+                        <div class="info__content">
+                                <label for="nafn">Nafn:</label>
+                                <input type="field" name="nafn" id="nafn" required>
                             </div>
 
-                            <div class="info__reitirtexti">
-                                <label class="nafnreitur" for="address">Heimilisfang:</label>
-                                <input class="reiturinfo" type="address" name="address" id="address" required>
+                            <div class="info__content">
+                                <label for="address">Heimilisfang:</label>
+                                <input type="address" name="address" id="address" required>
                             </div>
 
-                            <div class="info__reitirtexti">
-                                <label class="nafnreitur" for="postnr">Póstnúmer:</label>
-                                <select class="reiturinfo" name="postnr" id="postnr">
+                            <div class="info__content">
+                                <label for="postnr">Póstnúmer:</label>
+                                <select class="info__select" name="postnr" id="postnr">
                                         <option>-Velja póstnúmer-</option>
                                         <option>101 Reykjavík</option>
                                         <option>103 Reykjavík</option>
@@ -297,27 +279,23 @@
                                 </select>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="info__rod">
-                        <h2 class="textiBOLD">Greiðsluupplýsingar</h2>
-                        <div class="info__box">
-                            <div class="info__reitirtexti">
-                                <label class="nafnreitur" for="nafn">Kortanúmer:</label>
-                                <input class="reiturinfo" type="nafn" name="nafn" id="nafn" required>
+                    <div class="grid__col grid__col--sm grid__col--right">
+                        <h2>Greiðsluupplýsingar</h2>
+                        <div class="info__content">
+                                <label for="nafn">Kortanúmer:</label>
+                                <input class="info__box" type="nafn" name="nafn" id="nafn" required>
                             </div>
 
-                            <div class="info__box">
-                                <div class="info__reitirtexti">
-                                    <label class="nafnreitur" for="address">Korthafi:</label>
-                                    <input class="reiturinfo" type="address" name="address" id="address" required>
+                            <div class="info__content">
+                                    <label for="address">Korthafi:</label>
+                                    <input class="info__box" type="address" name="address" id="address" required>
                                 </div>
 
-                                <div class="info__reitirtexti">
-                                    <label class="nafnreitur" for="address">Gildistími:</label>
-                                    <div class="info__gildistimi">
+                                    <label for="address">Gildistími:</label>
+                                    <div class="table__gildistimi">
                                         <label for="manud">Mán:</label>
-                                        <select class="reiturinfo--man" name="manud" id="manud">
+                                        <select class="info__box--man" name="manud" id="manud">
                                                 <option> 01 </option>
                                                 <option> 02 </option>
                                                 <option> 03 </option>
@@ -333,7 +311,7 @@
                                         </select>
 
                                         <label for="year">Ár:</label>
-                                        <select class="reiturinfo--ar" name="year" id="year">
+                                        <select class="reiturtable--ar" name="year" id="year">
                                                 <option> 2018 </option>
                                                 <option> 2019 </option>
                                                 <option> 2020 </option>
@@ -349,63 +327,60 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="takkikaupa">
-                    <button class="takki">
-                        <div class="takki__texti">Kaupa</div>
-                    </button>
+                <div class="grid__row grid__row--margin">
+                    <button class="button__red button__red--center">Kaupa</button>
                 </div>
-
+            </div>
         </main>
 
-        <footer class="fotur">
-                <div class="foturListi">
-                    <div class="foturListi__rod">
-                        <div class="foturListi__dalk">
-                            <h3 class="foturListi__fyrirsogn">Vöruflokkar</h3>
-                            <ul class="foturListi__rod--larett">
-                                <li class="foturListi__hlutir"><a href="../pages/products.html">Nauðsynjavörur</a></li>
-                                <li class="foturListi__hlutir"><a href="../pages/products.html">Frábærar vörur</a></li>
-                                <li class="foturListi__hlutir"><a href="../pages/products.html">Ómissandi vörur</a></li>
-                                <li class="foturListi__hlutir"><a href="../pages/products.html">Ótrúlegar vörur</a></li>
-                                <li class="foturListi__hlutir"><a href="../pages/products.html">Magnaðar vörur</a></li>
+        <footer>
+                <div class="grid content">
+                    <div class="grid__row grid__row--footer">
+                        <div class="grid__col grid__col--footer">
+                            <h3 class="grid__fyrirsogn">Vöruflokkar</h3>
+                            <ul>
+                                <li><a href="../pages/products.html">Nauðsynjavörur</a></li>
+                                <li><a href="../pages/products.html">Frábærar vörur</a></li>
+                                <li><a href="../pages/products.html">Ómissandi vörur</a></li>
+                                <li><a href="../pages/products.html">Ótrúlegar vörur</a></li>
+                                <li><a href="../pages/products.html">Magnaðar vörur</a></li>
                             </ul>
                         </div>
     
-                        <div class="foturListi__dalk">
-                            <h3 class="foturListi__fyrirsogn">Vöruflokkar</h3>
-                            <ul class="foturListi__rod--larett">
-                                <li class="foturListi__hlutir"><a href="../pages/products.html">Trylltar vörur</a></li>
-                                <li class="foturListi__hlutir"><a href="../pages/products.html">Geggjaðar vörur</a></li>
-                                <li class="foturListi__hlutir"><a href="../pages/products.html">Svakalegar vörur</a></li>
-                                <li class="foturListi__hlutir"><a href="../pages/products.html">Fáránlegar vörur</a></li>
-                                <li class="foturListi__hlutir"><a href="../pages/products.html">Klikkaðar vörur</a></li>
+                        <div class="grid__col grid__col--footer">
+                            <h3 class="grid__fyrirsogn">Vöruflokkar</h3>
+                            <ul>
+                                <li><a href="../pages/products.html">Trylltar vörur</a></li>
+                                <li><a href="../pages/products.html">Geggjaðar vörur</a></li>
+                                <li><a href="../pages/products.html">Svakalegar vörur</a></li>
+                                <li><a href="../pages/products.html">Fáránlegar vörur</a></li>
+                                <li><a href="../pages/products.html">Klikkaðar vörur</a></li>
                             </ul>
                         </div>
     
-                        <div class="foturListi__dalk">
-                            <h3 class="foturListi__fyrirsogn">Vöruflokkar</h3>
-                            <ul class="foturListi__rod--larett">
-                                    <li class="foturListi__hlutir"><a href="../pages/products.html">Nýjar vörur</a></li>
-                                    <li class="foturListi__hlutir"><a href="../pages/products.html">Gamlar vörur</a></li>
-                                    <li class="foturListi__hlutir"><a href="../pages/products.html">Skrítnar vörur</a></li>
+                        <div class="grid__col grid__col--footer">
+                            <h3 class="grid__fyrirsogn">Vöruflokkar</h3>
+                            <ul>
+                                    <li><a href="../pages/products.html">Nýjar vörur</a></li>
+                                    <li><a href="../pages/products.html">Gamlar vörur</a></li>
+                                    <li><a href="../pages/products.html">Skrítnar vörur</a></li>
                             </ul>
                         </div>
     
-                        <div class="foturListi__dalk">
-                            <h3 class="foturListi__fyrirsogn">Síður</h3>
-                            <ul class="foturListi__rod--larett">
-                                    <li class="foturListi__hlutir"><a href="../pages/products.html">Allar vörur</a></li>
-                                    <li class="foturListi__hlutir"><a href="../pages/staff.html">Starfsfólk</a></li>
-                                    <li class="foturListi__hlutir"><a href="../pages/cart.html">Karfa</a></li>
+                        <div class="grid__col grid__col--footer">
+                            <h3 class="grid__fyrirsogn">Síður</h3>
+                            <ul>
+                                    <li><a href="../pages/products.html">Allar vörur</a></li>
+                                    <li><a href="../pages/staff.html">Starfsfólk</a></li>
+                                    <li><a href="../pages/cart.html">Karfa</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="vorumerki">© 2018 Vöruhúsið</div>
+                <div class="grid__row">
+                    <div class="grid__col--copyright">© 2018 Vöruhúsið</div>
+                </div>
             </footer>
         </body>
 
