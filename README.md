@@ -7,6 +7,8 @@
  
  html fyrir forsíðu er að finna í aðalvalmynd (index.html)
  
+ #css.
+ 
  style.....css keyrir css fyrir html. skránna index.
  
  stylescart.css keyrir css fyrir html. skránna carts.
