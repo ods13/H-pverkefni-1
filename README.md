@@ -1,5 +1,32 @@
 
 # Hópverkefni 1
+ 
+ #Html.
+ 
+ html fyrir , cart, products og staff er að finna undir pages.
+ 
+ html fyrir forsíðu er að finna í aðalvalmynd (index.html)
+ 
+ #css.
+ 
+ style.....css keyrir css fyrir html. skránna index.html
+ 
+ stylescart.css keyrir css fyrir html. skránna cart.html
+ 
+ stylestaff.css keyrir css fyrir html. skránna staff.html
+ 
+ 
+ Verkefnið er unnið af:
+  
+  Kári Kjærnested. kak25@hi.is
+  
+  Óðinn Sigurðsson. ods13@hi.is
+
+    Upplýsingar um hvernig keyra skuli verkefnið
+    Lýsingu á uppsetningu verkefnis, hvernig því er skipt í möppur, hvernig CSS er skipulagt og fleira sem á við
+    Upplýsingar um alla sem unnu verkefni
+    Leyfilegt er að halda eftir þessari verkefnalýsingu en hún skal þá koma á eftir ykkar lýsing
+
 
 Verkefnið felst í því að smíða vef eftir forskrift.
 
