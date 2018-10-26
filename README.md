@@ -1,16 +1,23 @@
 
 # Hópverkefni 1
  
- Html.
+ #Html.
+ 
  html fyrir , cart, products og staff er að finna unduri pages.
+ 
  html fyrir forsíðu er að finna í aðalvalmynd (index.html)
  
  style.....css keyrir css fyrir html. skránna index.
+ 
  stylescart.css keyrir css fyrir html. skránna carts.
+ 
  stylestaff.css keyrir css fyrir html. skránna staff.
  
+ 
  Verkefnið er unnið af:
+  
   Kári Kjærnested. kak25@hi.is
+  
   Óðin Sigurðsson. ods13@hi.is
 
     Upplýsingar um hvernig keyra skuli verkefnið
