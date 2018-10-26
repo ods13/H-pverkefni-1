@@ -18,7 +18,7 @@
   
   Kári Kjærnested. kak25@hi.is
   
-  Óðin Sigurðsson. ods13@hi.is
+  Óðinn Sigurðsson. ods13@hi.is
 
     Upplýsingar um hvernig keyra skuli verkefnið
     Lýsingu á uppsetningu verkefnis, hvernig því er skipt í möppur, hvernig CSS er skipulagt og fleira sem á við
