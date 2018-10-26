@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  html { /* stylelint-disable-line */
+    box-sizing: border-box;
+    overflow-x: hidden;
+  
+    // TODO fleiri grunn stillingar
+  }
+
+/* header byrjar */
+.haus {
+    cursor: default;
+    background-color: #afb281;
+    margin-bottom: 40px;
+}
+
+.fyrirsogn {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+.menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+    .menu__links {
+        margin-left: 25%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+
+    .menu__text{
+        align-content: space-between;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+}
+
+.kerra {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    align-items: center;
+    width: 25%;
+
+    @media (max-width: 599px) {
+        justify-content: center;
+        width: 100%;
+    }
+
+    &__image {
+        
+        height: 20px;
+        width: 20px;
+        margin: 10px;
+    }
+
+    &__text {
+        margin: 10px;
+        transition: color 300ms ease-in-out;
+    
+        &:hover{
+            color: #cee8fc;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.menu__text {
+    font-family: 'Oswald';
+    font-size: 18px;
+}
+
+.link {
+    color: #000000;
+    transition: color 300ms ease-in-out;
+    text-decoration: none;
+}
+    .link:hover {
+        color: #cee8fc;
+        cursor: pointer;
+    }
+
+
+/* header endar */
+
+.card {
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .cards__col:hover .card {
+    transform: rotateY(180deg);
+  }
+  
+  .face {
+    backface-visibility: hidden;
+  }
+  
+  .face.card__back {
+    position: absolute;
+    display: block;
+    transform: rotateY(180deg); /* sjáum ekki bakhliðina strax */
+    text-align: center;
+  }
+  
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  /* grid fyrir efni */
+  .grid__row {
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  
+  .grid__row--wrap {
+    flex-wrap: wrap;
+  
+  }
+  
+  .grid__col {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  
+  
+  /* grid fyrir spjöldin */
+  .cards__col {
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  @media (min-width: 701px) {
+    .grid__row {
+      flex-direction: row;
+      transition: ease-in-out 0.3s;
+    }
+  
+    
+ 
+
+.image {
+    max-width: 100%;
+}
