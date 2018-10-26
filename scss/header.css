@@ -1,0 +1,79 @@
+.haus {
+    cursor: default;
+    background-color: #afb281;
+    margin-bottom: 40px;
+}
+
+.fyrirsogn {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+.menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+    .menu__links {
+        margin-left: 25%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+
+    .menu__text{
+        align-content: space-between;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+}
+
+.kerra {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    align-items: center;
+    width: 25%;
+
+    @media (max-width: 599px) {
+        justify-content: center;
+        width: 100%;
+    }
+
+    &__image {
+        
+        height: 20px;
+        width: 20px;
+        margin: 10px;
+    }
+
+    &__text {
+        margin: 10px;
+        transition: color 300ms ease-in-out;
+    
+        &:hover{
+            color: #cee8fc;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.menu__text {
+    font-family: 'Oswald';
+    font-size: 18px;
+}
+
+.link {
+    color: #000000;
+    transition: color 300ms ease-in-out;
+    text-decoration: none;
+}
+    .link:hover {
+        color: #cee8fc;
+        cursor: pointer;
+    }
+
