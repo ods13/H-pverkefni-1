@@ -7,53 +7,69 @@
 }
 
 .fyrirsogn {
-
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 48px;
 }
 
 .menu {
-
-
-
-    __links {
-
+    max-width: $max-width;
+    margin: 0 auto;
+    display: flex;
+}
+    .menu__links {
+        margin-left: 25%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
     }
 
-    __text{
-
+    .menu__text{
+        align-content: space-between;
+        text-transform: uppercase;
+        padding: 10px;
     }
 }
 
 .kerra {
-
-
-
-    __image {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    align-items: center;
+    width: 25%;
+}
+    @media (max-width: 599px) {
+        justify-content: center;
+        width: 100%;
+    }
+    .kerra__image {
         align-content: center;
         width: $gutter;
         height: $gutter;
     }
 
-    __text {
+    .kerra__text {
         margin: $gutter/2;
-        :hover{
+    }
+        .kerra__text:hover{
             color: $lightBlue;
             cursor: pointer;
         }
-    }
-}
 
 
 .menu__text {
-
+    font-family: 'Oswald';
+    font-size: 18px;
 }
 
 .link {
     color: $black;
     transition: color 300ms ease-in-out;
     text-decoration: none;
-
-    :hover {
+}
+    .link:hover {
         color: $lightBlue;
         cursor: pointer;
     }
-}
