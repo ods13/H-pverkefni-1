@@ -3,17 +3,17 @@
  
  #Html.
  
- html fyrir , cart, products og staff er að finna unduri pages.
+ html fyrir , cart, products og staff er að finna undir pages.
  
  html fyrir forsíðu er að finna í aðalvalmynd (index.html)
  
  #css.
  
- style.....css keyrir css fyrir html. skránna index.
+ style.....css keyrir css fyrir html. skránna index.html
  
- stylescart.css keyrir css fyrir html. skránna carts.
+ stylescart.css keyrir css fyrir html. skránna cart.html
  
- stylestaff.css keyrir css fyrir html. skránna staff.
+ stylestaff.css keyrir css fyrir html. skránna staff.html
  
  
  Verkefnið er unnið af:
