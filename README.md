@@ -9,7 +9,7 @@ node-sass
 
 run-all
 
-stylielint
+stylelint
 
 stylelint-config-primer
 
